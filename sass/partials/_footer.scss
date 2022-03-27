@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-shrink: 0;
+    background-color: $secondary;
+    margin-top: 2rem;
+    color: #8d8d8d;
+    padding: 0.5em 4.7rem;
+  
+    @media (min-width: 500px) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  
+  footer p {
+    margin: 5px;
+    font-size: 12px;
+  }
